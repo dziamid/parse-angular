@@ -1,1 +1,0 @@
-Parse.initialize('appId', 'jsKey');

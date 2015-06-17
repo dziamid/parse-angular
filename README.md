@@ -1,20 +1,18 @@
-[![Build Status](https://snap-ci.com/rafbgarcia/angular-parse-wrapper/branch/master/build_image)](https://snap-ci.com/rafbgarcia/angular-parse-wrapper/branch/master)
+Parse Angular
+=============
 
-Parse Wrapper
-=====================
+Enables data binding for Parse.Object.
+Forked from `rafbgarcia/angular-parse-wrapper` to enable commonjs syntax.
 
-Integrates Parse into Angular's lifecycle.
+## Usage
 
-
-## Using
-
-I. Install it
+Install:
+```
+  npm install parse-angular --save-dev
 
 ```
-bower install angular-parse-wrapper
-```
 
-II. Include the module in your project
+Include the module in your project
 
 ```javascript
 angular.module('myApp', ['Controllers']);
