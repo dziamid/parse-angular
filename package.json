@@ -1,15 +1,15 @@
 {
-  "name": "angular-parse-wrapper",
+  "name": "parse-angular",
   "version": "0.1.1",
   "description": "A wrapper that integrates Parse with Angular's lifecycle",
-  "main": "src/parse-wrapper.js",
+  "main": "src/parse-angular.js",
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafbgarcia/angular-parse-wrapper.git"
+    "url": "https://github.com/dziamid/parse-angular.git"
   },
   "keywords": [
     "parse",
@@ -19,12 +19,12 @@
     "collection",
     "objects"
   ],
-  "author": "Rafael Garcia <rafbgarcia@gmail.com>, Nicolas Kermarc <nick@getbrandid.com>",
+  "author": "Dziamid Zayankouski <dziamid@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafbgarcia/angular-parse-wrapper/issues"
+    "url": "https://github.com/dziamid/parse-angular/issues"
   },
-  "homepage": "https://github.com/rafbgarcia/angular-parse-wrapper",
+  "homepage": "https://github.com/dziamid/parse-angular",
   "devDependencies": {
 
   }

@@ -1,7 +1,7 @@
 Parse Angular
 =============
 
-Enables data binding for Parse.Object.
+A wrapper that integrates Parse with Angular's lifecycle
 Forked from `rafbgarcia/angular-parse-wrapper` to enable commonjs syntax.
 
 ## Usage
