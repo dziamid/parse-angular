@@ -2,6 +2,7 @@
 var Parse = require('parse').Parse,
   angular = require('angular'),
   moment = require('moment'),
+  _ = require('lodash'),
   parseAngular = angular.module('parseAngular', []);
 
 parseAngular.factory('parseAngular', function () {
@@ -228,4 +229,4 @@ parseAngular.run(['$q', '$window', function ($q, $window) {
 
 }]);
 
-},{"angular":"angular","moment":"moment","parse":"parse"}]},{},[1]);
+},{"angular":"angular","lodash":"lodash","moment":"moment","parse":"parse"}]},{},[1]);

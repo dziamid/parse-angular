@@ -1,6 +1,7 @@
 var Parse = require('parse').Parse,
   angular = require('angular'),
   moment = require('moment'),
+  _ = require('lodash'),
   parseAngular = angular.module('parseAngular', []);
 
 parseAngular.factory('parseAngular', function () {

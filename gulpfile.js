@@ -7,6 +7,7 @@ gulp.task('browserify', function () {
     .external('angular')
     .external('moment')
     .external('parse')
+    .external('lodash')
     .bundle()
     //Pass desired output filename to vinyl-source-stream
     .pipe(source('parse-angular.latest.js'))
